@@ -1,0 +1,51 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+    background-color:lightgrey;
+}
+
+.results-container{
+  padding-top: 10%;
+  width:75%;
+  margin: 0 auto;
+/*  background-color:black;
+*/}
+
+.header{
+  position:absolute;
+  top:0;
+  left: 0;
+  height:70px;
+  width: 100%;
+  background-color:grey;
+}
+
+.logo{
+  padding-left: 12.5%;
+  margin-top: 16px;
+  color: white;
+/*  text-decoration: none;
+*/}
+
+a:link{
+  color:white;
+  text-decoration: none;
+}
+
+#search-photos{
+  margin: 0 auto;
+  /*margin-top:35px;*/
+
+}
+
+.sticky-footer{
+    position: absolute;
+    background-color: darkgrey;
+    left: 0;
+    bottom: 0;
+    height: 4%;
+    width: 100%;
+}
